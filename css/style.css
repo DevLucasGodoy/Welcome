@@ -4302,11 +4302,11 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-brand {
-  color: #1b66c7;
+  color: #fff;
 }
 
 .navbar-dark .navbar-brand:hover, .navbar-dark .navbar-brand:focus {
-  color: #1b66c7;
+  color: #fff;
 }
 
 .navbar-dark .navbar-nav .nav-link {
@@ -4325,7 +4325,7 @@ input[type="button"].btn-block {
 .navbar-dark .navbar-nav .active > .nav-link,
 .navbar-dark .navbar-nav .nav-link.show,
 .navbar-dark .navbar-nav .nav-link.active {
-  color: #1b66c7;
+  color: #fff;
 }
 
 .navbar-dark .navbar-toggler {
@@ -4342,7 +4342,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-text a {
-  color: #1b66c7;
+  color: #fff;
 }
 
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
@@ -9501,14 +9501,14 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
-  color: #1986bd;
+  color: #212121;
   font-weight: 500;
   outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color: #1986bd;
+  color:#1986bd;
 }
 
 @media (max-width: 991.98px) {
