@@ -652,6 +652,12 @@ pre code {
   padding-left: 15px;
 }
 
+.col-md-6-center, .col-lg-4-center {
+  position: center;
+  width: 100%;
+  padding-right: 100px;
+  padding-left: 100px;
+}
 .col {
   flex-basis: 0;
   flex-grow: 1;
