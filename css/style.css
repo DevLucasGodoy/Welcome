@@ -6165,6 +6165,10 @@ button.bg-dark:focus {
   background-color: #fff !important;
 }
 
+.bg-azul {
+  background-color: #1986bd !important;
+}
+
 .bg-transparent {
   background-color: transparent !important;
 }
@@ -9501,14 +9505,14 @@ h6,
 
 .navbar-light .navbar-nav .nav-link {
   padding: 30px 15px;
-  color: #212121;
+  color: #FFFFFF;
   font-weight: 500;
   outline: none;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link.active {
-  color:#1986bd;
+  color: #FFFFFF;
 }
 
 @media (max-width: 991.98px) {
