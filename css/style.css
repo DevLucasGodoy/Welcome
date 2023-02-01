@@ -655,8 +655,8 @@ pre code {
 .col-md-6-center, .col-lg-4-center {
   position: center;
   width: 100%;
-  padding-right: 100px;
-  padding-left: 100px;
+  padding-right: 10px;
+  padding-left: 10px;
 }
 .col {
   flex-basis: 0;
@@ -2366,6 +2366,12 @@ fieldset:disabled a.btn {
   color: #fff;
   background-color: #1986bd;
   border-color: #1986bd;
+}
+
+.btn-zap {
+  color: #fff;
+  background-color: #34af23;
+  border-color: #34af23;
 }
 
 .btn-primary:hover {
@@ -9620,6 +9626,18 @@ h6,
   border: 2px solid #1986bd;
   background: #FFFFFF;
   color: #1986bd;
+  transition: .5s;
+}
+
+.service-item-zap i {
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid #34af23;
+  background: #FFFFFF;
+  color: #34af23;
   transition: .5s;
 }
 
