@@ -9321,7 +9321,7 @@ a.text-danger:hover, a.text-danger:focus {
 
 .text-light-navbar {
   color: #FFFFFF !important;
-  font-family: cursive;
+  font-family: cursive !important;
 }
 
 a.text-light:hover, a.text-light:focus {
