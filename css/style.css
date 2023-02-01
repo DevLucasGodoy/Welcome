@@ -4282,7 +4282,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-light .navbar-nav .nav-link.disabled {
-  color: rgba(0, 0, 0, 0.3);
+  color: rgba(0, 0, 0, 0);
 }
 
 .navbar-light .navbar-nav .show > .nav-link,
@@ -6177,6 +6177,10 @@ button.bg-dark:focus {
   background-color: #fff !important;
 }
 
+.bg-zap {
+  background-color: rgba(115, 214, 57, 0.5) !important;
+}
+
 .bg-azul {
   background-color: #1986bd !important;
 }
@@ -7591,12 +7595,12 @@ button.bg-dark:focus {
 
 .pt-5,
 .py-5 {
-  padding-top: 3rem !important;
+  padding-top: 1rem !important;
 }
 
 .pr-5,
 .px-5 {
-  padding-right: 3rem !important;
+  padding-right: 5rem !important;
 }
 
 .pb-5,
@@ -7606,7 +7610,7 @@ button.bg-dark:focus {
 
 .pl-5,
 .px-5 {
-  padding-left: 3rem !important;
+  padding-left: 1rem !important;
 }
 
 .m-n1 {
