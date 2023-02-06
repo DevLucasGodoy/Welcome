@@ -7381,10 +7381,13 @@ button.bg-dark:focus {
 }
 
 .m-1 {
-  margin: 0.25rem !important;
+  align-items: center !important;
 }
 
-.mt-1,
+.mt-1 {
+  margin-top: 0.25rem !important;
+}
+
 .my-1 {
   margin-top: 0.25rem !important;
 }
