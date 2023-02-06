@@ -2624,6 +2624,19 @@ fieldset:disabled a.btn {
   box-shadow: 0 0 0 0.2rem rgba(222, 222, 223, 0.5);
 }
 
+@media (min-width: 425px) {
+  .buton-dark {
+    background-color: #ffffff00;
+    border-color: #ffffff00;
+  }
+}
+
+.buton-dark {
+  color: #fff;
+  background-color: #212121;
+  border-color: #212121;
+}
+
 .btn-dark {
   color: #fff;
   background-color: #212121;
@@ -2645,15 +2658,15 @@ fieldset:disabled a.btn {
 
 .btn-dark.disabled, .btn-dark:disabled {
   color: #fff;
-  background-color: #212121;
-  border-color: #212121;
+  background-color: #ffffff00;
+  border-color: #ffffff00;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active, .btn-dark:not(:disabled):not(.disabled).active,
 .show > .btn-dark.dropdown-toggle {
   color: #fff;
-  background-color: #080808;
-  border-color: #010101;
+  background-color: #ffffff00;
+  border-color: #01010100;
 }
 
 .btn-dark:not(:disabled):not(.disabled):active:focus, .btn-dark:not(:disabled):not(.disabled).active:focus,
@@ -6012,12 +6025,12 @@ a.close.disabled {
 
 .carousel-caption {
   position: absolute;
-  right: 15%;
-  bottom: 20px;
-  left: 15%;
+  right: 10%;
+  bottom: 10px;
+  left: 10%;
   z-index: 10;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: #fff;
   text-align: center;
 }
@@ -7623,7 +7636,7 @@ button.bg-dark:focus {
 
 .pb-5,
 .py-5 {
-  padding-bottom: 3rem !important;
+  padding-bottom: 1rem !important;
 }
 
 .pl-5,
@@ -7672,6 +7685,7 @@ button.bg-dark:focus {
 .mb-n2,
 .my-n2 {
   margin-bottom: -0.5rem !important;
+  
 }
 
 .ml-n2,
