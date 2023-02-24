@@ -926,7 +926,7 @@ pre code {
     max-width: 41.66667%;
   }
   .col-sm-6 {
-    flex: 0 0 50%;
+    flex: 50%;
     max-width: 50%;
   }
   .col-sm-7 {
@@ -1889,9 +1889,7 @@ pre code {
   background-color: #fff;
   background-clip: padding-box;
   border: 1px solid #ced4da;
-  border-radius: 5%;
   transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
-  opacity : 0.5;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -7609,6 +7607,10 @@ button.bg-dark:focus {
   padding-left: 1rem !important;
 }
 
+.p-04 {
+  padding: 1.5rem !important;
+}
+
 .p-4 {
   padding: 1.5rem !important;
   padding-bottom: 3rem !important;
@@ -9835,7 +9837,7 @@ h6,
   transform-origin: 5%;
   padding: 0;
   list-style-type: none;
-  background-image: url("../img/Imagem do WhatsApp de 2023-01-31 à(s) 20.29.39.jpg");
-  background-color: #cccccc;
+  /* background-image: url("../img/Imagem do WhatsApp de 2023-01-31 à(s) 20.29.39.jpg"); */
+  background-color: #FFFFFF;
 }
 
