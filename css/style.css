@@ -152,7 +152,7 @@ a {
 }
 
 a:link {
-  color: #ffffff;
+  /* color: #ffffff; */
   text-decoration: none;
  }
 
