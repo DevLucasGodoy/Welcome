@@ -402,7 +402,7 @@ h4, .h4 {
 
 @media (max-width: 500px) {
   h4, .h4 {
-    font-size: 1rem !important;
+    font-size: 0.9rem !important;
   }
 }
 
@@ -7610,7 +7610,8 @@ button.bg-dark:focus {
 }
 
 .p-4 {
-  padding: 3.2rem !important;
+  padding: 1.5rem !important;
+  padding-bottom: 3rem !important;
 }
 
 .pt-4,
