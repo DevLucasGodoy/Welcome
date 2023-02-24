@@ -4095,7 +4095,7 @@ input[type="button"].btn-block {
 
 .navbar-toggler-icon {
   display: inline-block;
-  width: 0em;
+  width: 1.5em;
   height: 1.5em;
   /* vertical-align: middle; */
   content: "";
