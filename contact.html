@@ -98,33 +98,27 @@
             <div class="row justify-content-center">
                 <div class="col-lg-8">
                     <div class="contact-form bg-white-form" style="padding: 10px;">
-                        <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
+                        <form id="contactForm" action="https://formsubmit.co/firstclassdev.pro@proton.me" method="POST" target="_blank">
                             <div class="form-row">
                                 <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-04" id="name" placeholder="Nome Completo"
-                                        required="required" data-validation-required-message="Please enter your name" />
+                                    <input type="text" class="form-control p-04" id="name" placeholder="Nome Completo" name="name" required/>
                                     <p class="help-block text-danger"></p>
                                 </div>
                                 <div class="control-group col-sm-6">
-                                    <input type="email" class="form-control p-04" id="email" placeholder="Email"
-                                        required="required" data-validation-required-message="Please enter your email" />
+                                    <input type="email" class="form-control p-04" id="email" placeholder="Email" name="email" required/>
                                     <p class="help-block text-danger"></p>
                                 </div>
                             </div>
                             <div class="control-group">
-                                <input type="text" class="form-control p-04" id="subject" placeholder="Assunto"
-                                    required="required" data-validation-required-message="Please enter a subject" />
+                                <input type="text" class="form-control p-04" id="subject" placeholder="Assunto" name="assunto" required/>
                                 <p class="help-block text-danger"></p>
                             </div>
                             <div class="control-group">
-                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Escreva aqui a sua mensagem..."
-                                    required="required"
-                                    data-validation-required-message="Please enter your message"></textarea>
+                                <textarea class="form-control py-3 px-4" rows="5" id="message" placeholder="Escreva aqui a sua mensagem..." name="message" required></textarea>
                                 <p class="help-block text-danger"></p><br/>
                             </div>
                             <div class="text-center">
-                                <button class="btn btn-primary py-3 px-4" type="submit" id="sendMessageButton">Enviar Mensagem<br/></button><br/>
+                                <button class="btn btn-primary py-3 px-4" type="submit">Enviar Mensagem<br/></button><br/>
                             </div>
                         </form>
                     </div>
@@ -217,7 +211,7 @@
     <script src="lib/tempusdominus/js/moment.min.js"></script>
     <script src="lib/tempusdominus/js/moment-timezone.min.js"></script>
     <script src="lib/tempusdominus/js/tempusdominus-bootstrap-4.min.js"></script>
-    <script src="./mail/contact.js"></script>
+    <!-- <script src="./mail/contact.js"></script> -->
     <script src="js/main.js"></script>
 </body>
 
