@@ -529,6 +529,12 @@ mark,
   height: auto;
 }
 
+.img-fluid-feedback {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #F3F3F3;
